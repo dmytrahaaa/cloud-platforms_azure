@@ -8,6 +8,6 @@ Team: Andriy Vedilin, Diana Dmytrashko
 https://github.com/dmytrahaaa/cloud-platforms_azure/blob/hw_1/screenshots/create_account.png
 
 ## 3. (individual, mandatory, 10 pt) Terraform introduction
-learn-terraform-azure/resource_group.png
+https://github.com/dmytrahaaa/cloud-platforms_azure/blob/hw_1/screenshots/resource_group.png
 
 tf_configs directory
