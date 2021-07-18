@@ -2,7 +2,7 @@ import logging
 import azure.functions as func
 
 
-def main(req: func.HttpRequest, bloboutput: func.Out[str]) -> func.HttpResponse:
+def main(req: func.HttpRequest, outputblob: func.Out[str]) -> func.HttpResponse:
     logging.info('Python HTTP trigger function processed a request.')
 
     name = req.params.get('name')
@@ -10,7 +10,7 @@ def main(req: func.HttpRequest, bloboutput: func.Out[str]) -> func.HttpResponse:
     result = req.get_json()
     result['param'] = name
 
-    bloboutput.set(str(result))
+    outputblob.set(str(result))
 
     if name:
         return func.HttpResponse(f"Hello, {name}. This HTTP triggered function executed successfully.")
