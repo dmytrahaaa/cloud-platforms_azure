@@ -17,7 +17,7 @@
     },
     {
       "type": "blob",
-      "name": "bloboutput",
+      "name": "outputblob",
       "path": "source/ctry/{DateTime:yyyy}/{DateTime:MM}/{DateTime:dd}/event_{DateTime}.json",
       "direction": "out",
       "connection": "CloudStorageConnectionString"
