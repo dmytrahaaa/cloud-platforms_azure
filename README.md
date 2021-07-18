@@ -11,6 +11,8 @@ Language - Python & Ksql
 
 ##### High component level architecture
 
+https://github.com/dmytrahaaa/cloud-platforms_azure/blob/hw_2/capstone_project_description/cloud_project_design.png
+
 #### Components
 
 ##### Message producer
