@@ -7,6 +7,7 @@
 The goal: write a high-level description of your team capstone project.
 
 Project: data processing pipeline - processing social media data (reddit)
+
 Language - Python & Ksql
 
 ##### High component level architecture
