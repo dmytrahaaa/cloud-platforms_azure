@@ -24,7 +24,7 @@ Entry point to the application. Reads Reddit comments from prepared .csv file an
 Consumer for 'comments-stream' topic. Detect language of the message and Produces message with detected language to 'lang-stream' topic.
 
 ##### Statistics
-Python script with executes ksql queries against ksql-cli server. Reads topics 'lang-stream', 'sentiments-out', 'keywords-stream' 
+Python script with executes ksql queries against ksql-cli server. Reads topics 'lang-stream'
 
 ##### Data set
 Reddit comments .csv file with 5000 of messages.
