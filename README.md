@@ -10,6 +10,10 @@ Project: data processing pipeline - processing social media data (reddit)
 
 Language - Python & Ksql
 
+##### Azure components
+
+Azure functions, Event Hub, Blob storage
+
 ##### High component level architecture
 
 https://github.com/dmytrahaaa/cloud-platforms_azure/blob/hw_2/capstone_project_description/cloud_project_design.png
