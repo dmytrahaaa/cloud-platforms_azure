@@ -12,7 +12,7 @@ Language - Python & Ksql
 
 ##### Azure components
 
-Azure functions, Event Hub, Blob storage
+Azure functions, Event Hub, Object storage, Language Understanding (for language detection), Text Analytics (for keywords)
 
 ##### High component level architecture
 
